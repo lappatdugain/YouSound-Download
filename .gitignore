@@ -1,0 +1,37 @@
+# Ignore directory in root
+bin/
+documentations/
+include/
+lib/
+lib64
+
+# Visual Studio
+.vs/
+
+# Ignore specific files in root
+*.log
+pyvenv.cfg
+
+# Ignore specific directory in ytapp
+ytapp/__pycache__/
+ytapp/test/
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
