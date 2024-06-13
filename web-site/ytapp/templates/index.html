@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="French">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../static/style.css">
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<nav>
+  <div id="navigation-container">
+    <img src="../static/logo.png" alt="logo">
+    <ul>
+      <li>
+        <a href="index.html" class="english">Home</a>
+      </li>
+      <li>
+        <a href="index.html" class="french">Accueil</a>
+      </li>
+      <li>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=ZL6R6GB7QM32G" target="_blank" class="english">Donation</a>
+      </li>
+      <li>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=ZL6R6GB7QM32G" target="_blank" class="french">Dons</a>
+      </li>
+      <li>
+        <a href="https://discord.gg/BEJHYj2Z4r">Discord</a>
+      </li>
+      <li>
+        <select id='choice_langue' name="langue">
+          <option value="english">🇬🇧</option>
+          <option value="french">🇫🇷</option>
+        </select>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<body>
+
+  <main>
+    <div id="zone_input">
+      <form method="post" action="/">
+        <input type="url" name="url" id="url" placeholder="https://youtube.com/watch?v=nhWyu4LEUtA" autocomplete="off"
+          required>
+        <select id='choice_mp3_mp4' name="conversion_type">
+          <option value="mp3">mp3</option>
+          <option value="mp4">mp4</option>
+        </select>
+        <button type="submit" id="button-convert">Convert</button>
+      </form>
+    </div>
+    <div class="container-mobile">
+      <div class="container-top">
+        <div class="box-1">
+          <img src="../static/file-svg/arrow-down-circle-outline.svg" alt="">
+          <h1 class="english">Free Service</h1>
+          <h2 class="english">My service is free and without advertising but if you want you can make a donation to me.
+          </h2>
+          <h1 class="french">Service Gratuit</h1>
+          <h2 class="french">Mon service est gratuit et sans publicité, mais si vous le souhaitez, vous pouvez me faire un don.</h2>
+        </div>
+        <div class="box-2">
+          <img src="../static/file-svg/ban.svg" alt="">
+          <h1 class="english">Your Privacy Matters</h1>
+          <h2 class="english">No data is collected on my website, and there are no commercial cookies in use.</h2>
+          <h1 class="french">Votre Confidentialité Compte</h1>
+          <h2 class="french">Aucune donnée n'est collectée sur mon site web, et aucun cookie commercial n'est utilisé.
+          </h2>
+        </div>
+        <div class="box-3">
+          <img src="../static/file-svg/shield-checkmark.svg" alt="">
+          <h1 class="english">Safe Downloads</h1>
+          <h2 class="english">Downloads are safe and my service is open source.</h2>
+          <h1 class="french">Téléchargements Sécurisés</h1>
+          <h2 class="french">Les téléchargements sont sûrs et mon service est open source </h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="box-4">
+          <img src="../static/file-svg/desktop.svg" alt="">
+          <h1 class="english">Accessibility</h1>
+          <h2 class="english">My services can be used on multiple devices</h2>
+          <h1 class="french">Accessibilité</h1>
+          <h2 class="french">Mon site peux être utilisé sur tous types appareils.</h2>
+        </div>
+        <div class="box-5">
+          <img src="../static/file-svg/sync-circle.svg" alt="">
+          <h1 class="english">Enjoy unlimited downloads</h1>
+          <h2 class="english">You have unlimited downloads</h2>
+          <h1 class="french">Profitez de Téléchargements Illimités</h1>
+          <h2 class="french">Vous pouvez télécharger en illimité.</h2>
+        </div>
+        <div class="box-6">
+          <img src="../static/file-svg/documents.svg" alt="">
+          <h1 class="english">MP3 and MP4 Formats</h1>
+          <h2 class="english">You have the option to choose between two file types: MP3 or MP4.</h2>
+          <h1 class="french">Formats MP3 et MP4</h1>
+          <h2 class="french">Vous avez la possibilité de choisir entre deux types de fomats : MP3 ou MP4.</h2>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-top">
+      <div class="footer-colonne">
+        <h3>Contacts</h3>
+        <a href="#" class="english">Contact me</a>
+        <a href="mailto :rlhpub.ahzh7@silomails.com subject=info ytapp" target="_blank" class="french">Me contactez</a>
+        <a href="https://discord.gg/BEJHYj2Z4r">Discord</a>
+      </div>
+      <div class="footer-colonne">
+        <h3>Menu</h3>
+        <a href="index.html" class="english">Home</a>
+        <a href="index.html" class="french">Accueil</a>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=ZL6R6GB7QM32G" class="english" target="_blank">Donation</a>
+        <a href="https://www.paypal.com/donate/?hosted_button_id=ZL6R6GB7QM32G" class="french" target="_blank">Dons</a>
+        <a href="https://discord.gg/BEJHYj2Z4r">Discord</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <a href="https://github.com/lappatdugain/ytapp" target="_blank"><img src="../static/file-svg/logo-github.svg" alt="logo github"></a>
+      &copy; copyright 2024 YouSound Download
+    </div>
+  </footer>
+  </footer>
+  <script src="../static/script.js"></script>
+</body>
+
+</html>
