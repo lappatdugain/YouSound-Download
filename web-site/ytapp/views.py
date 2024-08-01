@@ -1,7 +1,7 @@
 import logging
 import tempfile
 from flask import Flask, render_template, request, send_file
-from pytube import YouTube
+from pytubefix import YouTube
 from moviepy.editor import *
 from datetime import datetime
 
@@ -62,8 +62,6 @@ def url():
 
                     # as_attachment donner l'info au navigateur que le fichier est comme une pièce jointe téléchargeable
                     return send_file(mp4, as_attachment=True)
-
-
             else:
                 logging.warning(f"No flux found for URL: {url_video}")
     return render_template("index.html")
