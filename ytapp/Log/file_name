@@ -1,5 +1,0 @@
-INFO:werkzeug:127.0.0.1 - - [11/Sep/2024 18:24:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [11/Sep/2024 18:24:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [11/Sep/2024 18:24:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-INFO:werkzeug:127.0.0.1 - - [11/Sep/2024 18:24:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
-INFO:werkzeug: * Detected change in '/home/raphael/Documents/programation/projet/YouSound Download/YouSound-Download/web-site/ytapp/LogginFile.py', reloading
