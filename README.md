@@ -44,12 +44,9 @@ YouSound Download is a Flask-based web application that allows users to download
 
 ## Project Structure
 
-## `run.py`
+## `ytapp/app.py`
 
 The main entry point of the Flask application. It runs the server and defines the routes.
-
-## `ytapp/views.py`
-
 Contains the Flask views and logic for handling URL submissions and file conversions.
 
 ## `templates/index.html`
